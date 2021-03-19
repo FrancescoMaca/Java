@@ -1,0 +1,9 @@
+name: OpsPlugin
+main: com.OpsPlugin.OpsPlugin
+version: 1.0
+api-version: 1.13
+commands:
+    ops:
+      log: true
+      description: "Very cryptic command"
+      usage: /<command>

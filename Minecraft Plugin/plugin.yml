@@ -1,0 +1,17 @@
+name: ChallengePlugin
+main: com.ChallengePlugin.Main.Commands.ChallengePlugin
+version: 1.0
+api-version: 1.13
+commands:
+    challenge:
+      log: true
+      tab-complete: 0
+      send-namespaced: false
+      description: "Show message challenge"
+      usage: /<command> <add|remove|set> <block> <amount in stacks, amount in blocks>
+    c:
+      log: false
+      tab-complete: 0
+      send-namespaced: false
+      description: "Show message challenge"
+      usage: /<command> <add|remove|set> <block> <amount in stacks, amount in blocks>
